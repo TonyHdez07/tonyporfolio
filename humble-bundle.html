@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Humble Bundle – Operations Portfolio · Tony Hernandez</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <div class="logo-dot"></div>
+        <span>Tony Hernandez</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Overview</a>
+        <a href="humble-bundle.html" class="active">Humble Bundle</a>
+        <a href="rgp.html">Consulting & RGP</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          HUMBLE BUNDLE · STORE & BUNDLE OPS
+        </div>
+        <h1>Humble Bundle <span>Operations</span></h1>
+        <p class="hero-subtitle">
+          Store & bundle operations across inflows, sales, scripts and key management.
+          I work daily with Jira, Confluence, admin tools and Python scripts to keep games, keys
+          and pages clean and working for players.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-meta">Scope</div>
+        <h3>Platforms, tools & workflows</h3>
+        <p class="card-body">
+          Steam, Nintendo, Epic, GOG · Admin Product / DisplayItem / TPKDs ·
+          Steam & Nintendo scraper scripts · SOTB tooling · Store promotions ·
+          Key outages & returns · Localization via Lokalise.
+        </p>
+        <div class="pill-row">
+          <span class="pill">Store Ops</span>
+          <span class="pill">Bundle Ops</span>
+          <span class="pill">Scripting</span>
+          <span class="pill">Jira / Confluence</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title-row">
+        <h2 class="section-title">Case Studies</h2>
+        <p class="section-tagline">Representative examples (content anonymized, processes real).</p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-meta">CASE STUDY · PRODUCT INFLOWS</div>
+          <h3>P3/P4 Steam & Nintendo Inflows</h3>
+          <p class="card-body">
+            Took inflow requests from BD and translated them into fully working store pages.
+            Used Steam & Nintendo scraper scripts to create Product + DisplayItem + TPKDs, then
+            adjusted pricing, region restrictions, assets and ESRB data before sending preview
+            links back to BD for partner approval.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Steam Scraper</span>
+            <span class="pill">Nintendo Inflow</span>
+            <span class="pill">ESRB & Pricing</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">CASE STUDY · WHITE GLOVE</div>
+          <h3>White Glove Store Pages for New Partners</h3>
+          <p class="card-body">
+            Helped BD approach new or “sleeper hit” developers by creating white glove store pages.
+            Filled out the White Glove sheet, configured placeholder payees, ran the scraper,
+            cleaned up assets and copy, and surfaced a polished preview page so BD could start
+            conversations quickly.
+          </p>
+          <div class="pill-row">
+            <span class="pill">White Glove Sheet</span>
+            <span class="pill">Placeholder Payees</span>
+            <span class="pill">Asset QA</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">CASE STUDY · SCRIPTS</div>
+          <h3>Bundle Pre-Production Automation</h3>
+          <p class="card-body">
+            Supported bundle teams by preparing SOTB sheets and running internal scripts like
+            <code>sotb_to_product.py</code> and <code>displayitem_batch.py</code> to spin up product
+            structures quickly. Coordinated with QA to validate entitlements, region restrictions
+            and bundle logic before launch.
+          </p>
+          <div class="pill-row">
+            <span class="pill">SOTB</span>
+            <span class="pill">Python Scripts</span>
+            <span class="pill">QA Collaboration</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">CASE STUDY · SALES</div>
+          <h3>Weekly & Major Sales Setup</h3>
+          <p class="card-body">
+            Worked on weekly sales and supported major seasonal events using internal promo
+            scripts. Updated pricing, checked currency coverage (USD, EUR, GBP, etc.), ensured
+            correct product pools and verified that pages rendered correctly on the storefront.
+          </p>
+          <div class="pill-row">
+            <span class="pill">create_promotion.py</span>
+            <span class="pill">Multi-currency</span>
+            <span class="pill">Seasonal Events</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">CASE STUDY · KEYS</div>
+          <h3>Key Outages & Returns</h3>
+          <p class="card-body">
+            Helped resolve key outages by pulling Jira tickets from ops queues, checking TPKD
+            setups, confirming key pools (Sega, T2, Genba, etc.) and coordinating with dev
+            contacts. For delists, processed key returns and ensured the customer experience
+            stayed consistent.
+          </p>
+          <div class="pill-row">
+            <span class="pill">TPKDs</span>
+            <span class="pill">Key Exhaustion</span>
+            <span class="pill">Developer Comms</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">CASE STUDY · LOCALIZATION</div>
+          <h3>Localization & Multi-Language Storefronts</h3>
+          <p class="card-body">
+            Used localization tooling to pull, request and apply translations for product pages,
+            banners and takeovers. Verified mapping between machine names and strings to avoid
+            broken or mismatched text in non-English locales.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Lokalise</span>
+            <span class="pill">Multi-language</span>
+            <span class="pill">Quality Checks</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Humble Bundle operations portfolio · Tony Hernandez
+  </footer>
+</body>
+</html>
