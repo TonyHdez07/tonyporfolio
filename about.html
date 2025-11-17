@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About · Tony Hernandez</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <div class="logo-dot"></div>
+        <span>Tony Hernandez</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Overview</a>
+        <a href="humble-bundle.html">Humble Bundle</a>
+        <a href="rgp.html">Consulting & RGP</a>
+        <a href="about.html" class="active">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          ABOUT · OPERATIONS & SYSTEMS
+        </div>
+        <h1>Hi, I’m <span>Tony</span>.</h1>
+        <p class="hero-subtitle">
+          I like taking messy, multi-system work (games, keys, contracts, billing) and making it
+          predictable. I’ve operated in gaming, consulting and healthcare environments, and I’m
+          comfortable owning the “who’s actually going to make this work?” part of the process.
+        </p>
+        <div class="hero-buttons">
+          <a href="mailto:youremail@example.com" class="btn-primary">Email me</a>
+          <a href="https://www.linkedin.com" target="_blank" class="btn-ghost">Connect on LinkedIn</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-meta">What I bring</div>
+        <h3>Ops brain + empathy for users</h3>
+        <p class="card-body">
+          • Strong documentation habits (SOPs, playbooks, training)<br/>
+          • Comfort with scripts, tools and debugging flows<br/>
+          • Calm under “this broke right before launch” pressure<br/>
+          • Collaborative with BD, engineering, CS and finance
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © <span id="year"></span> Tony Hernandez · Portfolio
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
