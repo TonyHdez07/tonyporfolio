@@ -1,9 +1,116 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Tony Portfolio</title>
-  </head>
-  <body>
-    <h1>Hello, this will be my Humble Bundle Portfolio</h1>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tony Hernandez – Tech Operations Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <div class="logo-dot"></div>
+        <span>Tony Hernandez</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Overview</a>
+        <a href="humble-bundle.html">Humble Bundle</a>
+        <a href="rgp.html">Consulting & RGP</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          TECH OPERATIONS · DIGITAL STOREFRONTS
+        </div>
+        <h1>Tech Ops & Storefront <span>Portfolio</span></h1>
+        <p class="hero-subtitle">
+          Operations coordinator focused on clean execution: game inflows, digital storefront builds,
+          scripted automation, and key management across Humble Bundle Store and consulting work
+          in financial and enterprise environments.
+        </p>
+        <div class="hero-buttons">
+          <a href="humble-bundle.html" class="btn-primary">View Humble Bundle Work →</a>
+          <a href="rgp.html" class="btn-ghost">View Consulting / RGP Projects</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-meta">Snapshot</div>
+        <h3>What I Actually Do Day-to-Day</h3>
+        <p class="card-body">
+          • Build & QA game/product pages<br/>
+          • Run and validate internal scripts (Steam/Nintendo, SOTB, promotions)<br/>
+          • Coordinate with BD, Devs and CS on launches, outages & fixes<br/>
+          • Maintain accurate pricing, assets, localization and region restrictions
+        </p>
+        <div class="pill-row">
+          <span class="pill">Steam / Epic / GOG</span>
+          <span class="pill">Automation Scripts</span>
+          <span class="pill">Jira & Confluence</span>
+          <span class="pill">Store Operations</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title-row">
+        <h2 class="section-title">Highlights</h2>
+        <p class="section-tagline">A few representative projects from both Humble Bundle and consulting.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="card-meta">HUMBLE BUNDLE · STORE OPS</div>
+          <h3>End-to-End Product Inflows (Steam & Nintendo)</h3>
+          <p class="card-body">
+            Built and QA’d new store products from intake email → Jira → Admin setup → preview links.
+            Included metadata scraping, region restrictions, TPKD config and asset review before BD sign-off.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Steam Scraper</span>
+            <span class="pill">Nintendo Inflow</span>
+            <span class="pill">Region Restrictions</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">HUMBLE BUNDLE · BUNDLES</div>
+          <h3>Bundle Pre-Production & SOTB Scripts</h3>
+          <p class="card-body">
+            Supported the bundle lifecycle by preparing SOTB sheets, running Python scripts to create
+            products and DisplayItems, and coordinating with QA to validate entitlements and assets.
+          </p>
+          <div class="pill-row">
+            <span class="pill">sotb_to_product.py</span>
+            <span class="pill">displayitem_batch.py</span>
+            <span class="pill">QA Collaboration</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">CONSULTING / RGP</div>
+          <h3>Project Setup & Billing Accuracy</h3>
+          <p class="card-body">
+            Managed project setup workflows across Salesforce / Workday, validating contracts, rates and
+            billing rules to reduce setup errors and support clean revenue recognition.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Workday FINS</span>
+            <span class="pill">SOX Controls</span>
+            <span class="pill">Process Documentation</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Built and maintained by Tony Hernandez · <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+  </footer>
+</body>
 </html>
